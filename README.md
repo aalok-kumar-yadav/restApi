@@ -4,11 +4,12 @@ This project contains a company's database and we will retrieve all the useful a
 data in **JSON** format.First we need to create a Djnago Project and then created a webapp
 namely companies.
 
-after this we need to install djangorestframework using command line -
+install djangorestframework in python
 
 ``` bash
 pip install djangorestframework
 ```
+
 after installing include in the installed apps
 
 
@@ -26,6 +27,7 @@ database
 - Dependent_Of
 - Controls
 
+## Steps
 
 1. after this we have to create a serializers class for all class of database this actually
 provides the wrapping in a specific format like **JSON** instead of simple python objects.
@@ -33,7 +35,7 @@ provides the wrapping in a specific format like **JSON** instead of simple pytho
 
 
 2. creating view is necessary for response for specfic url patterns so create a generic view
- simple view.
+ simple view for HTTP Response.
 
 
 3. To complete all steps when we run a url in localhost we get **JSON** Fomat data in browser.
