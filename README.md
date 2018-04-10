@@ -1,4 +1,4 @@
-# restApi
+## restApi
 
 This project contains a company's database and we will retrieve all the useful and wanted 
 data in **JSON** format.First we need to create a Djnago Project and then created a webapp
@@ -16,7 +16,7 @@ after installing include in the installed apps
 we need to create database(if not exist) in model and migrate all changes 
 database
 
-# RDBMS TABLES
+## RDBMS TABLES
 
 - Employee
 - Department
